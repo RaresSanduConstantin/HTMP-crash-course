@@ -2,3 +2,43 @@
     color: red;
     box-shadow: 1px 2px 20px 6px black;
 }
+
+/* body{
+    
+} */
+
+.blogContainer{
+    position: relative;
+    width: 100%;
+   padding: 2% 0%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+}
+.postContainer{
+    position: relative;
+    width: 33.30%;
+    padding: 5% 2%;
+}
+.postContainer h3{
+    width: 100%;
+    text-align: center;
+}
+
+.postContainer small{
+    font-size: 1.5em;
+    color: gray;
+}
+
+.postContainer p{
+    font-size: 1.2em;
+    color: black;
+}
+
+.postContainer a{
+    font-size:2em;
+    text-decoration: none !important;
+    position: relative;
+    float: right;
+}
