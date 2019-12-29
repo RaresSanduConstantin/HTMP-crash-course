@@ -1,84 +1,148 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML Cheat Sheet</title>
-    </head>
-    <body>
-        <!-- Hadings-->
-        <h1>Hading One</h1>
-        <h2>Hading Two</h2>
-        <h3>Hading Three</h3>
-        <h4>Hading Four</h4>
-        <h5>Hading Five</h5>
-        <h6>Hading Six</h6>
+
+<head>
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <a href="blog.html">Go to blog</a>
+    <hr>
+    <!-- Hadings-->
+    <h1>Hading One</h1>
+    <h2>Hading Two</h2>
+    <h3>Hading Three</h3>
+    <h4>Hading Four</h4>
+    <h5>Hading Five</h5>
+    <h6>Hading Six</h6>
 
     <!-- Paragraph -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Commodi voluptatibus<strong> molestias odio accusamus 
-        at temporibus</strong> aperiam<em> numquam obcaecati aspernatur
-         atque consectetur eaque magni ut</em>, quam esse, ex 
-         necessitatibus suscipit vel?
+    <p class="rares">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Commodi voluptatibus<strong> molestias odio accusamus
+            at temporibus</strong> aperiam<em> numquam obcaecati aspernatur
+            atque consectetur eaque magni ut</em>, quam esse, ex
+        necessitatibus suscipit vel?
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing
         elit.<a href="http://google.com" target="_blank"> Ex nobis laborum, culpa voluptatum impedit
-        tempore debitis aspernatur</a> dolorum facere?
-        Recusandae quidem maxime deleniti. Itaque rem 
+            tempore debitis aspernatur</a> dolorum facere?
+        Recusandae quidem maxime deleniti. Itaque rem
         similique optio, tempore aliquid distinctio?
     </p>
 
     <!-- Lists -->
-<ul>   
-    <li>List Item 1</li>
-    <li>List Item 2</li>
-    <li>List Item 3</li>
-    <li>List Item 4</li>
-</ul>
-<ol>   
-    <li>List Item 1</li>
-    <li>List Item 2</li>
-    <li>List Item 3</li>
-    <li>List Item 4</li>
-</ol>
+    <ul class="rares">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
 
-<!-- Table -->
-<table>
-    <thead>
+    <!-- Table -->
+    <table>
+        <thead>
             <th>Name</th>
             <th>Email</th>
             <th>Age</th>
 
-    </thead>
-    <tbody>
-        <tr>
-            <td>Sandu Rares</td>
-            <td>sandurares@ceva.com</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>Loredana Ciciu</td>
-            <td>lcicius@ceva.com</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Stoica Mihai</td>
-            <td>mihaisexy69@ceva.com</td>
-            <td>69<td>
-        </tr>
-    </tbody>
-</table>
-<br>
-<hr>
-<br>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sandu Rares</td>
+                <td>sandurares@ceva.com</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Loredana Ciciu</td>
+                <td>lcicius@ceva.com</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Stoica Mihai</td>
+                <td>mihaisexy69@ceva.com</td>
+                <td>69
+                <td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
 
-<!-- Forms -->
-<form action="process.php" method="POST">
-    <lable>First Name</lable>
-    <imput type="text" name="first-name">
-        <lable>First Name</lable>
-    <imput type="text" name="first-name">
-</form>
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <div>
+            <lable>First Name</lable>
+            <input type="text" name="firstName" placeholder="Enter first name">
+        </div>
+        <br>
+        <div>
+            <lable>Last Name</lable>
+            <input type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <lable>Email</lable>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <lable>Message</lable>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <lable>Gender</lable>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="male">Female</option>
+                <option value="male">Other</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <lable>Age</lable>
+            <input type="number" name="age" value="">
+        </div>
+        <br>
+        <div>
+            <lable>Birthday</lable>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
 
 
-        <div style="margin-top:500px"></div>
-    </body>
+    </form>
+    <!--Button-->
+    <button>Click Me</button>
+    <br>
+    <!--Image-->
+    <a herf="images\sample.jpeg">
+        <img src="images\sample.jpeg" alt="My Sample Image" width="200">
+    </a>
+    <!--Quotations-->
+
+    <blockquote cite="http:google.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis nihil aperiam sunt magni minus
+        voluptatem delectus ea libero pariatur, blanditiis accusamus tempora, nemo provident eum odio rem nulla autem?
+
+    </blockquote>
+
+    <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+    <p><cite>HTML Crash coures by Rares Sandu</cite</p>
+        
+        
+        <div style="margin-top:500px">
+            </div>
+</body>
+
 </html>
